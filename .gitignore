@@ -1,0 +1,27 @@
+# Build output
+/build/
+/out/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.log
+
+# IDE and editor state
+.vs/
+.vscode/
+*.user
+
+# Large or generated evidence
+/evidence/bundles/
+/evidence/snapshots/
+
+# Never commit game data or assets
+/game-data/*
+!/game-data/README.md
+
+# OS metadata
+Thumbs.db
+desktop.ini
