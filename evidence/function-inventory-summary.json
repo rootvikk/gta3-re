@@ -1,0 +1,9 @@
+﻿{
+    "target_sha256":  "203c9520ab53baf1f42bdd378ca2e66d27a790d196b2fd434db9d6049b9f2796",
+    "total":  4441,
+    "internal":  4270,
+    "external":  171,
+    "thunks":  5,
+    "named_internal":  6,
+    "generated":  "2026-10-23"
+}

@@ -41,5 +41,6 @@ executable hash above.
 
 ## Status
 
-Toolchain ready. Target identified. Evidence baseline in progress. See
-`docs/progress.md`.
+Toolchain ready. Target identified and opened in REA/Ghidra. Baseline evidence
+and a 4,441-procedure inventory are exported. Next: subsystem triage. See
+`docs/progress.md` and `docs/evidence-log.md`.
