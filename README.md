@@ -8,8 +8,10 @@ reconstruction effort, not a port of an existing reimplementation project.
 
 - Executable: `C:\Users\Viraj\Desktop\Grand Theft Auto 3\gta3.exe`
 - SHA-256: `203c9520ab53baf1f42bdd378ca2e66d27a790d196b2fd434db9d6049b9f2796`
-- Size: 2.27 MB
-- Format: PE (architecture to be confirmed by REA)
+- Size: 2.27 MB (2,383,872 bytes)
+- Format: PE / x86 (confirmed)
+- Build timestamp: 2002-04-30 17:02:12 UTC
+- Probable version: GTA III 1.0 (exact distribution provenance open)
 - PE version resource: none observed
 - Original install: read-only reference, never modified
 
@@ -41,6 +43,8 @@ executable hash above.
 
 ## Status
 
-Toolchain ready. Target identified and opened in REA/Ghidra. Baseline evidence
-and a 4,441-procedure inventory are exported. Next: subsystem triage. See
-`docs/progress.md` and `docs/evidence-log.md`.
+Toolchain ready. Target identified as GTA III 1.0 (strong inference; exact
+distribution provenance open). Baseline evidence, 4,441-procedure and
+3,477-string inventories, and a 15-anchor subsystem triage are available.
+Next: exhaustive subsystem mapping. See `docs/version-identification.md`,
+`docs/subsystem-triage.md`, `docs/progress.md`, and `docs/evidence-log.md`.

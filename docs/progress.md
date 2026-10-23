@@ -11,12 +11,27 @@ Updated: 2026-10-23
 - [x] Confirm architecture (`x86`), entry point (`0x5c1e70`), and 14 segments
 - [x] Export binary overview evidence
 - [x] Build initial function inventory (4,441 procedures)
-- [ ] Triage procedures into subsystems
+- [x] Identify version family: GTA III 1.0 (strong inference; exact provenance open)
+- [x] Preliminary subsystem triage (15 anchor functions)
+- [ ] Exhaustive subsystem boundary map
 - [ ] Reconstruct first subsystem
 - [ ] Establish a buildable test harness
 
 ## Current focus
 
-Triage the 4,441-procedure inventory into subsystems. Start from entry,
-imports, strings, and the largest call-graph hubs rather than guessing from
-address order.
+Expand the preliminary triage into an exhaustive map. Priorities: the
+boot/init chain from `0x5c1e70`, RenderWare asset loaders, audio, the script
+opcode table, and the actual camera engine. Resolve the 2.27 MB versus 3.22 MB
+distribution provenance and the linker-2.50 anomaly before treating the hash
+as a canonical v1.0 reference.
+
+## Completed this session
+
+- Version 1.0 identified from PE timestamp and size, with external
+  corroboration. Exact distribution variant remains open.
+- 15 anchor functions decompiled across boot/init, streaming, rendering,
+  input, audio, scripting, text/frontend, and vehicles.
+- String inventory exported: `evidence/string-inventory.csv` (3,477 rows).
+- Evidence bundle refreshed: 81 records, 22,457,656 bytes.
+- New reports: `docs/version-identification.md` and
+  `docs/subsystem-triage.md`.

@@ -8,6 +8,10 @@
 | Java | 27 (64-bit JDK), `C:\Program Files\Java\jdk-27` |
 | Target | `C:\Users\Viraj\Desktop\Grand Theft Auto 3\gta3.exe` |
 | Target SHA-256 | `203c9520ab53baf1f42bdd378ca2e66d27a790d196b2fd434db9d6049b9f2796` |
+| Target size | 2,383,872 bytes (2.27 MiB) |
+| PE build timestamp | 2002-04-30 17:02:12 UTC |
+| Probable version | GTA III 1.0 (exact provenance open; see `version-identification.md`) |
+| Linker version | 2.50 (anomalous; see `version-identification.md`) |
 
 ## Observed install contents
 
